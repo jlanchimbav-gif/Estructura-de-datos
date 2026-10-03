@@ -13,3 +13,19 @@ print(f"La media de los elementos es: {media}")
 
 # carga de datos# 
 
+## ejercicio 2 
+
+# Crear un arreglo unidimensional (lista)
+numeros = [10, 20, 30, 40, 50]
+
+# Acceder a elementos
+print("Primer elemento:", numeros[0])   # 10
+print("Último elemento:", numeros[-1])  # 50
+
+# Recorrer el arreglo
+for n in numeros:
+    print("Valor:", n)
+
+# Modificar un elemento
+numeros[2] = 99
+print("Arreglo modificado:", numeros)
