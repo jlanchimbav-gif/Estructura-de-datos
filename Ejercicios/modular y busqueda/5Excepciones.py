@@ -1,3 +1,8 @@
+## Las excepciones son errores que ocurren durante la ejecución de un programa.
+## Son un mecanismo para manejar errores y continuar la ejecución del programa.
+
+
+## ejercicio 1 
 try:
     numero = int(input("Ingresa un número: "))
     resultado = 10 / numero

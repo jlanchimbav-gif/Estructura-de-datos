@@ -1,3 +1,6 @@
+## los arreglos unidimensionales son los que tienen un solo indice #
+## Sirven para representar vectores y listas #
+
 # calculo de la suma de los elementos #
 
 numeros=[1, 2, 3, 4, 5]
