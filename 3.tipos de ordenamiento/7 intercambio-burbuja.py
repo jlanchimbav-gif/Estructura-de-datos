@@ -15,3 +15,13 @@ def burbuja(lista):
 lista = [5, 3, 8, 4, 2]
 print(burbuja(lista))
 
+## Ejercicio 2 ##
+pokemon = [7, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def burbuja(pokemon):
+    n = len(pokemon)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if pokemon[j] > pokemon[j+1]:
+                pokemon[j], pokemon[j+1] = pokemon[j+1], pokemon[j]
+    return pokemon
+print(burbuja(pokemon))
