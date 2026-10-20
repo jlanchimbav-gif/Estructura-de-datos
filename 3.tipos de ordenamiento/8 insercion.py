@@ -18,3 +18,7 @@ def insercion(lista):
 lista = [5, 3, 8, 4, 2]
 print(insercion(lista))
 
+## Ejercicio 2# 
+# se tiene una lista de numeros y se desea ordenarla de menor a mayor
+
+        

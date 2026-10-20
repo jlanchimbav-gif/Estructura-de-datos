@@ -16,12 +16,26 @@ lista = [5, 3, 8, 4, 2]
 print(burbuja(lista))
 
 ## Ejercicio 2 ##
+# Lista desordenada de numeros (por ejemplo, IDs de pokemon)
 pokemon = [7, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 def burbuja(pokemon):
+    # n guarda cuantos elementos hay; se usa para saber hasta donde recorremos
     n = len(pokemon)
+
+    # i = pasada actual. En cada pasada el mayor de los pendientes "sube" al final
     for i in range(n):
-        for j in range(0, n-i-1):
-            if pokemon[j] > pokemon[j+1]:
-                pokemon[j], pokemon[j+1] = pokemon[j+1], pokemon[j]
+
+        # j recorre los pares vecinos. n-i-1 evita revisar lo que ya quedo ordenado al final
+        for j in range(0, n - i - 1):
+
+            # Si el de la izquierda es mayor que el de la derecha, estan en mal orden
+            if pokemon[j] > pokemon[j + 1]:
+
+                # Intercambio (swap): el mayor avanza una posicion hacia la derecha
+                pokemon[j], pokemon[j + 1] = pokemon[j + 1], pokemon[j]
+
+    # Al terminar todas las pasadas, la lista queda de menor a mayor
     return pokemon
+
 print(burbuja(pokemon))
