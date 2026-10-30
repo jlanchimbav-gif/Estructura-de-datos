@@ -1,5 +1,5 @@
 # ==============================
-# GRUPO NRO: [X] | INTEGRANTES: [Lista de nombres7]
+# GRUPO NRO: [7] | INTEGRANTES: [Lista de nombre]
 # PROYECTO: Componente Práctico 1 - Menú Integrador
 # ==============================
 
