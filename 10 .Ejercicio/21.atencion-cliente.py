@@ -19,7 +19,11 @@ def registrar_cliente():
     if not nombre:
         print(" El nombre no puede estar vacío.")
         return
-
+    
+    if not nombre.isalpha():
+        print(" El nombre no puede contener números.")
+        return
+    
     turno = f"T{contador_turnos:03d}"
     hora_llegada = datetime.now().strftime("%H:%M:%S")
 
